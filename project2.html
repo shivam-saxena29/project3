@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Header with Facebook logo and color -->
+    <div class="bg-blue-600 py-4">
+        <div class="initial-scale">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" class="h-12 mx-auto">
+        </div>
+    </div>
+
+    <!-- Login Form -->
+    <div class="flex justify-center items-center h-screen">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+            <h2 class="text-2xl font-semibold text-center mb-6">Facebook</h2>
+            <form>
+                <!-- Username Field -->
+                <div class="mb-4">
+                    <label for="username" class="block text-sm font-medium text-gray-700 mb-1">Username or Email</label>
+                    <input type="text" id="username" placeholder="Username or Email" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+                </div>
+
+                <!-- Password Field -->
+                <div class="mb-4">
+                    <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                    <input type="password" id="password" placeholder="Password" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+                </div>
+
+                <!-- Log In Button -->
+                <div class="mb-4">
+                    <button class="w-full bg-blue-600 text-white py-3 rounded hover:bg-blue-700">Log In</button>
+                </div>
+
+                <!-- Forgot Password and Sign Up Links -->
+                <div class="text-center text-sm">
+                    <a href="#" class="text-blue-600 hover:underline">Forgot Password?</a> &middot;
+                    <a href="#" class="text-blue-600 hover:underline">Sign up for Facebook</a>
+                    <h3>@2024 Facebook Website</h3>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
